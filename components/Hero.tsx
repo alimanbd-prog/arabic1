@@ -42,7 +42,7 @@ const Hero: React.FC<{ lang: Language }> = ({ lang }) => {
                className="absolute inset-[-20px] border-2 border-dashed border-palaceGold/10 rounded-full"
              />
              <div className="w-24 h-24 md:w-32 md:h-32 bg-palaceGold rounded-full flex items-center justify-center shadow-[0_0_50px_rgba(212,175,55,0.3)]">
-               <span className="text-royalGreen font-extrabold text-4xl md:text-5xl">RS</span>
+               <span className="text-royalGreen font-extrabold text-4xl md:text-5xl">S</span>
              </div>
           </div>
         </motion.div>

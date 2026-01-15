@@ -58,7 +58,7 @@ const Boutique: React.FC<{ lang: Language }> = ({ lang }) => {
             Exclusive Collection
           </span>
           <h2 className="text-4xl md:text-6xl font-black text-royalGreen">
-            {lang === 'en' ? 'AL-SHANKL BOUTIQUE' : 'بوتيك شنكل'}
+            {lang === 'en' ? 'SHANKL BOUTIQUE' : 'بوتيك شنكل'}
           </h2>
         </div>
         <p className="max-w-md text-gray-500 font-light text-lg">

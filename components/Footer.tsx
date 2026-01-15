@@ -11,10 +11,10 @@ const Footer: React.FC<{ lang: Language }> = ({ lang }) => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-16 h-16 bg-palaceGold rounded-full flex items-center justify-center text-royalGreen font-black text-2xl">RS</div>
+              <div className="w-16 h-16 bg-palaceGold rounded-full flex items-center justify-center text-royalGreen font-black text-2xl">S</div>
               <div>
-                <h3 className="text-2xl font-black text-palaceGold">ROYAL SHANKL</h3>
-                <p className="text-white/60 uppercase tracking-widest text-xs">Sports Academy</p>
+                <h3 className="text-2xl font-black text-palaceGold uppercase">SHANKL ACADEMY</h3>
+                <p className="text-white/60 uppercase tracking-widest text-xs">Premium Sports Excellence</p>
               </div>
             </div>
             <p className="max-w-md text-pearlWhite/70 leading-relaxed font-light mb-8">
@@ -38,7 +38,7 @@ const Footer: React.FC<{ lang: Language }> = ({ lang }) => {
             <h4 className="text-palaceGold font-bold mb-6">{lang === 'en' ? 'Kingdom of Saudi Arabia' : 'المملكة العربية السعودية'}</h4>
             <address className="not-italic text-white/60 space-y-4">
               <p>King Fahd Road, Riyadh</p>
-              <p>support@royalshankl.com</p>
+              <p>support@shanklacademy.com</p>
               <p>+966 11 000 0000</p>
             </address>
           </div>
@@ -48,7 +48,7 @@ const Footer: React.FC<{ lang: Language }> = ({ lang }) => {
         <div className="border-t border-white/10 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
            <div className="flex items-center gap-4 bg-white/5 px-6 py-3 rounded-full border border-white/10">
               <span className="text-palaceGold">📜</span>
-              <span className="text-xs font-mono opacity-50">LICENSE: KSA-SPORTS-ACAD-2024-001</span>
+              <span className="text-xs font-mono opacity-50">LICENSE: KSA-SPORTS-ACAD-2024-SHANKL</span>
            </div>
            
            <div className="flex gap-6">
@@ -60,7 +60,7 @@ const Footer: React.FC<{ lang: Language }> = ({ lang }) => {
            </div>
            
            <p className="text-xs text-white/30">
-             © 2024 Royal Shankl Sports Academy. All Rights Reserved.
+             © 2024 Shankl Academy. All Rights Reserved.
            </p>
         </div>
       </div>

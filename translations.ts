@@ -3,7 +3,7 @@ import { Language, Translation } from './types';
 
 export const translations: Record<Language, Translation> = {
   en: {
-    heroTitle: "ROYAL SHANKL SPORTS ACADEMY",
+    heroTitle: "SHANKL ACADEMY",
     heroSub: "Nurturing the Champions of Tomorrow with Royal Excellence",
     bookNow: "Reserve Your Spot",
     boutique: "The Boutique",
@@ -16,7 +16,7 @@ export const translations: Record<Language, Translation> = {
     ministryOfSports: "Licensed by Ministry of Sports",
   },
   ar: {
-    heroTitle: "أكاديمية شنكل الرياضية الملكية",
+    heroTitle: "أكاديمية شنكل الرياضية",
     heroSub: "تنشئة أبطال الغد بامتياز ملكي",
     bookNow: "احجز مكانك",
     boutique: "البوتيك الملكي",

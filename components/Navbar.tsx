@@ -23,10 +23,10 @@ const Navbar: React.FC<NavbarProps> = ({ lang, toggleLang, isOpen, setIsOpen }) 
             whileHover={{ rotate: 15 }}
             className="w-12 h-12 bg-royalGreen rounded-full flex items-center justify-center border-2 border-palaceGold shadow-lg"
           >
-            <span className="text-palaceGold font-bold text-xl">RS</span>
+            <span className="text-palaceGold font-bold text-xl">S</span>
           </motion.div>
           <span className="font-bold text-royalGreen hidden md:block">
-            {lang === 'en' ? 'ROYAL SHANKL' : 'شنكل الملكية'}
+            {lang === 'en' ? 'SHANKL ACADEMY' : 'أكاديمية شنكل'}
           </span>
         </div>
 
